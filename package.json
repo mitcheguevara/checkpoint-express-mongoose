@@ -4,16 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/*.js"
+    "test": "./node_modules/mocha/bin/mocha test/*.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  },
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^3.5.0",
     "mocha-junit-reporter": "^1.13.0",
     "supertest": "^3.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitcheguevara/checkpoint-express-mongoose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitcheguevara/checkpoint-express-mongoose/issues"
+  },
+  "homepage": "https://github.com/mitcheguevara/checkpoint-express-mongoose#readme"
 }
